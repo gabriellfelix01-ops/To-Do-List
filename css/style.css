@@ -1,0 +1,113 @@
+/* CONFIG GERAIS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100dvh;
+    color: lightgray;
+    background:
+    radial-gradient(circle at top left, #4b00a8 0%, transparent 30%),
+    radial-gradient(circle at bottom right, #350078 0%, transparent 35%),
+    #080510;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CONFIG CONTAINER */
+#container{
+    max-height: 400px;
+    min-width: 600px;
+    border: 1px solid darkgray;
+    box-shadow:
+    0 0 10px #8a2be2,
+    0 0 25px #6a00ff,
+    0 0 45px rgba(106, 0, 255, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+#container:hover{
+    opacity: 1;
+}
+/* CONFIG HEADER */
+header{
+    text-align: center;
+    margin-bottom: 15px;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+}
+/* CONFIG INPUTS */
+#inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 40px;
+}
+#input-text{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-indent: 20px;
+    background-color: transparent;
+    border: 1px solid #6a00ff;
+    color: white;
+}
+#button-submit{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #6a00ff ;
+    color: white;
+    opacity: 0.9;
+}
+#button-submit:active{
+    opacity: 1;
+}
+/* CONFIG LIST */
+#list-table{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+#list-table ul{
+    list-style: none;
+}
+#list-table li{
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+#list-table::-webkit-scrollbar {
+    width: 6px;
+}
+
+#list-table::-webkit-scrollbar-thumb {
+    background: #8a2be2;
+    border-radius: 10px;
+}
+#list-table::-webkit-scrollbar-track {
+    background: transparent;
+}
+/* FOOTER */
+footer{
+    font-size: 0.8rem;
+    width: 100%;
+    margin-top: 15px;
+    text-align: left;
+    padding: 5px;
+}
+hr{
+    margin: 10px 0px;
+}
