@@ -1,0 +1,35 @@
+@media (max-width: 650px) {
+  #container {
+    width: 90%;
+    min-width: 0;
+    min-height: 200px;
+    max-height: 400px;
+  }
+
+  header {
+    min-height: 50px;
+  }
+
+  header h1 {
+    font-size: 2.3rem;
+  }
+
+  #list-table {
+    max-height: 140px;
+  }
+
+  #inputs {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    gap: 5px;
+  }
+
+  #input-text {
+    width: 100%;
+  }
+
+  #button-submit {
+    width: 100%;
+  }
+}

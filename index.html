@@ -1,39 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
 
     <!-- links -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
     <script src="js/scripts.js" defer></script>
-    <script src="https://kit.fontawesome.com/91edc14904.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/91edc14904.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div id="container">
-        <header>
-            <h1>Lista de Tarefas</h1>
-            <small>Organize suas tarefas e seja mais produtivo!</small>
-        </header>
+      <header>
+        <h1>Lista de Tarefas</h1>
+        <small>Organize suas tarefas e seja mais produtivo!</small>
+      </header>
 
-        <div id="inputs">
-            <input type="text" name="text" id="input-text" placeholder= "Adicionar uma nova tarefa">
-            <button id="button-submit">
-                <i class="fa-solid fa-circle-plus"></i>
-                <span>Adicionar</span>
-            </button>
-        </div>
-        <section id="list-table">
-            <ul id="list">
-            </ul>
-        </section>
-        <hr>
-        <footer>
-            <span><i class="fa-solid fa-list-check"></i></span>
-            <small>0 tarefas restantes</small>
-        </footer>
+      <div id="inputs">
+        <input
+          type="text"
+          name="text"
+          id="input-text"
+          placeholder="Adicionar uma nova tarefa"
+        />
+        <button id="button-submit">
+          <i class="fa-solid fa-circle-plus"></i>
+          <span>Adicionar</span>
+        </button>
+      </div>
+
+      <section id="list-table">
+        <ul id="list"></ul>
+      </section>
+      <hr />
+      <footer>
+        <span><i class="fa-solid fa-list-check"></i></span>
+        <small>0 tarefas restantes.</small>
+      </footer>
     </div>
-    
-</body>
+  </body>
 </html>
+``` Se quiser, manda o CSS também que eu dou uma olhada.
