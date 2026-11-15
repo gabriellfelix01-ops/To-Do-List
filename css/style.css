@@ -104,7 +104,7 @@ h1{
     background: transparent;
 }
 
-.remove{
+.removeItem{
     color: #4b00a8;
     background-color:transparent;
     border: 1px solid lightgray;
@@ -112,9 +112,13 @@ h1{
     padding: 5px;
     transition: 0.3s;
 }
-.remove:hover{
+.removeItem:hover{
     cursor: pointer;
     transform: translateY(-3px);
+}
+#list-table li.concluido {
+    background-color: green;
+    font-style: italic;
 }
 
 /* FOOTER */
